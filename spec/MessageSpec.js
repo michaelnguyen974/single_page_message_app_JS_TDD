@@ -1,9 +1,12 @@
-'use strict';
+// 'use strict';
 
 describe("Message", () => {
-  it("should be true", () => {
-    expect(true).toBe(true);
+  beforeEach( () => {
+    message = new Message("test text", new Date);
   });
 
-  
+  it("should be able to hold text", () => {
+    expect(message.message_content).toEqual("test text")
+  });
+
 });
