@@ -11,4 +11,7 @@ var message;
     expect(message.message_content).toEqual("test text")
   });
   
+  it("should have the date", () => {
+    expect(message.date).toEqual(new Date)
+    });
 });
