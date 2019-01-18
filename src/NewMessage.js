@@ -1,0 +1,5 @@
+class MessageHistory {
+  constructor() {
+    history = []
+  };
+};

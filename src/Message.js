@@ -3,4 +3,11 @@ class Message {
     this.message_content = content;
     this.date = date;
   };
+
+  createMessage(){
+    
+  }
+
 };
+
+
